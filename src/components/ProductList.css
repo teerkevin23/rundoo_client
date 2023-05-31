@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+.productList-container {
+    margin-top: 12px;
+}
+.productList {
+    display: flex;
+    flex-direction: row;
+}
