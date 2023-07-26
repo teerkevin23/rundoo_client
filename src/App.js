@@ -1,28 +1,47 @@
-import React, { useState, useEffect } from 'react';
-import CreateForm from './components/CreateForm';
-import ProductList from "./components/ProductList";
-//rm proptypes from package json and ignore fo rnow
+import React from 'react';
+import "./styles.css";
+
+import {AuthProvider} from "./components/context/authProvider";
+import {UserProvider} from "./components/context/userProvider";
+
+import AccordionWrapper from "./components/practice/AccordionWrapper";
+import KevinForm from "./components/practice/KevinForm";
+import SimpleUser from "./components/practice/SimpleUser";
+import AxiosGet from "./components/practice/AxiosGet";
+import AxiosPost from "./components/practice/AxiosPost";
+import AxiosPut from "./components/practice/AxiosPut";
+import AxiosDel from "./components/practice/AxiosDel";
+import AsyncComponent from "./components/practice/AsyncComponent";
+import DropzoneT from "./components/practice/DropzoneT.tsx";
+import ReactForm from "./components/practice/ReactForm";
+// import InputDebouncer from "./components/practice/InputDebouncer";
+import ProgressBars from "./components/practice/ProgressBars";
+import TempConvert from "./components/practice/TempConvert";
+import Input from "./components/practice/wordle/InputW";
+import Wordle from "./components/practice/wordle/Wordle.tsx";
+
 const App = () => {
-  // const [callback, setCallback] = useState(false);
-  //whenever refresh value changes, force refresh on component tree
-  const [refresh, setRefresh] = useState(false);
-
-  useEffect(() => {
-    // refresh!
-  }, [refresh]);
-
   return (
     <div>
-      <div>
-        <CreateForm
-          refresh={refresh}
-          setRefresh={setRefresh}
-        />
-        <hr/>
-        <ProductList refresh={refresh}/>
-      </div>
+      {/*<KevinForm/>*/}
+      {/*<AccordionWrapper/>*/}
+      {/*<AuthProvider>*/}
+      {/*  <UserProvider>*/}
+      {/*    <SimpleUser/>*/}
+      {/*  </UserProvider>*/}
+      {/*</AuthProvider>*/}
+      {/*<AxiosGet/>*/}
+      {/*<AxiosPost/>*/}
+      {/*<AxiosPut/>*/}
+      {/*<AxiosDel/>*/}
+      {/*<AsyncComponent/>*/}
+      {/*<DropzoneT/>*/}
+      {/*<ReactForm/>*/}
+      {/*<InputDebouncer />*/}
+      {/*<TempConvert/>*/}
+      <Wordle/>
     </div>
-  )
+  );
 }
 
 export default App;

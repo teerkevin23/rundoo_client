@@ -1,24 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6afc8527-ce7b-4622-8d1b-5f9f207452fa" name="Default Changelist" comment="" />
+    <list default="true" id="6afc8527-ce7b-4622-8d1b-5f9f207452fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/games/wordle_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/games/wordle_loss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/games/wordle_win.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/practice/SimpleUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/InputW.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/WordleList.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/Wordle.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-341">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/practice/AxiosGet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/GuessesBox.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/Word.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="tsconfig.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>style</find>
+      <find>setGuessArr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/practice/AccordionAria.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/practice/wordle/InputW.jsx" />
+        <option value="$PROJECT_DIR$/src/components/practice/wordle/WordleList.jsx" />
+        <option value="$PROJECT_DIR$/src/components/practice/wordle/styles.css" />
+        <option value="$PROJECT_DIR$/src/components/practice/wordle/Word.jsx" />
+        <option value="$PROJECT_DIR$/src/components/practice/wordle/GuessesBox.tsx.go" />
+        <option value="$PROJECT_DIR$/src/components/practice/wordle/GuessesBox.tsx" />
+        <option value="$PROJECT_DIR$/src/components/practice/wordle/Wordle.tsx" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="y" value="139" />
+    <option name="x" value="170" />
+    <option name="y" value="63" />
     <option name="width" value="1400" />
     <option name="height" value="909" />
   </component>
+  <component name="ProjectId" id="2QnQeRM7WO9P4uyPMyAwQz200GU" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rundoo_client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rundoo_client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rundoo_client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="games" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rundoo_client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rundoo_client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rundoo_client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="practice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rundoo_client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="practice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wordle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="rundoo_client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -30,25 +231,31 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="rundoo_client" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1690401169061" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/games" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,18 +269,103 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="Kevin Test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/practice/KevinForm.test.jsx" />
+      <test-names>
+        <test-name value="Kevin Test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Kevin Test.should print the KevinForm component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/practice/KevinForm.test.jsx" />
+      <test-names>
+        <test-name value="Kevin Test" />
+        <test-name value="should print the KevinForm component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleUser component.should render Simple User component correctly with auth context" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/practice/SimpleUser.test.js" />
+      <test-names>
+        <test-name value="SimpleUser component" />
+        <test-name value="should render Simple User component correctly with auth context" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="blank.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/rundoo_client/src/blank.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/rundoo_client/src/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.blank.html" />
+        <item itemvalue="Jest.SimpleUser component.should render Simple User component correctly with auth context" />
+        <item itemvalue="Jest.Kevin Test" />
+        <item itemvalue="Jest.Kevin Test.should print the KevinForm component" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6afc8527-ce7b-4622-8d1b-5f9f207452fa" name="Default Changelist" comment="" />
+      <created>1685570277659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685570277659</updated>
+      <workItem from="1685570279269" duration="896000" />
+      <workItem from="1685986964155" duration="18094000" />
+      <workItem from="1686785978941" duration="4624000" />
+      <workItem from="1686797795516" duration="174000" />
+      <workItem from="1686797985179" duration="70000" />
+      <workItem from="1686798063499" duration="10140000" />
+      <workItem from="1686851267236" duration="10422000" />
+      <workItem from="1687985820603" duration="18338000" />
+      <workItem from="1688595505313" duration="6152000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7048000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="139" width="1400" height="909" extended-state="0" />
+    <frame x="170" y="63" width="1400" height="909" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="TypeScript" weight="0.3292232" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -81,13 +373,114 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3292232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/Letter.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/WordleList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/InputW.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/GuessesBox.tsx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/Word.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/AxiosGet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/GuessesBox.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/practice/wordle/Wordle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
