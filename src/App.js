@@ -19,6 +19,8 @@ import ProgressBars from "./components/practice/ProgressBars";
 import TempConvert from "./components/practice/TempConvert";
 import Input from "./components/practice/wordle/InputW";
 import Wordle from "./components/practice/wordle/Wordle.tsx";
+import ObjectState from "./components/practice/ObjectState";
+import Token from "./components/window/Token";
 
 const App = () => {
   return (
@@ -39,7 +41,8 @@ const App = () => {
       {/*<ReactForm/>*/}
       {/*<InputDebouncer />*/}
       {/*<TempConvert/>*/}
-      <Wordle/>
+      {/*<Wordle/>*/}
+      <Token/>
     </div>
   );
 }
